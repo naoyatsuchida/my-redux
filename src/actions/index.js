@@ -1,16 +1,16 @@
 export const increment = (number) => {
   return {
-    type: "INCREMENT",
+    type: 'INCREMENT',
     payload: number,
   };
 };
 export const decrement = () => {
   return {
-    type: "DECREMENT",
+    type: 'DECREMENT',
   };
 };
 export const login = () => {
   return {
-    type: "LOGIN",
+    type: 'LOGIN',
   };
 };

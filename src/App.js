@@ -1,7 +1,7 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { useSelector, useDispatch } from "react-redux";
-import { increment, decrement, login } from "./actions";
+import logo from './logo.svg';
+import './App.css';
+import { useSelector, useDispatch } from 'react-redux';
+import { increment, decrement, login } from './actions';
 
 function App() {
   const counter = useSelector((state) => state.counter);
